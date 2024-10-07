@@ -137,6 +137,10 @@ section {
     text-align: center;
 }
 
+.text-4-scramble {
+	white-space: nowrap;
+}
+
 .dud { color: var(--text-color);}
 /*----------------------------------------*/
 
