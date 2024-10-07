@@ -93,6 +93,7 @@
 		flex-wrap: wrap;
 		padding: 3rem;
 		justify-content: center;
+		flex-direction: column;
 	}
 	.contact-container {
 		gap: 1rem;
@@ -257,6 +258,9 @@
 	.contact-inputs {
 		width: 20rem;
 	}
+	.mobile-view-con-left .row {
+        width: 22rem;
+    }
 	
 	.footer-container {
 		padding: 10px;
@@ -270,5 +274,8 @@
 	.tools-f-box:hover {
 		width: 300px; /* Width on hover */
 		height: auto; /* Height on hover */
+	}
+	.contact-right {
+		padding: 2.9rem 2rem 2rem 2rem;
 	}
 }
