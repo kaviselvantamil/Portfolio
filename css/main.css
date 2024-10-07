@@ -132,7 +132,7 @@ section {
 }
 /*-------------textscramble--------------*/
 .textscramble_{
-	margin-bottom: 1.1rem;
+	padding-bottom: 1.1rem;
     font-size: 1.6rem;
     text-align: center;
 }
