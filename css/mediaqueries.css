@@ -116,7 +116,7 @@
 	.profile-img-properties {
 		width: 250px;
 		height: 250px;
-		margin: 0 auto 2rem;
+		margin: 30 auto 2rem;
 	}
 	.section__text h1 {
 		font-size: 30px;
@@ -191,7 +191,7 @@
 @media screen and (max-width: 600px) {
 	#profile-home {
 		display: block;
-		padding: 200px 0% 9.6rem;
+		padding: 130px 0% 9.6rem;
 	}
 	.profile-img-properties {
 		width: 200px;
