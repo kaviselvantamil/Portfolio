@@ -1,0 +1,285 @@
+@media screen and (max-width: 1400px) {}
+
+
+
+@media screen and (max-width: 1360px) {
+	#profile-home {
+		display: flex;
+        padding: 157px 6% 2rem;
+        align-items: center;
+		gap: 2rem;
+	}
+	.profile-img-properties {
+		width: 400px;
+		height: 400px;
+		margin: auto 0;
+	}
+	.section__text h1 {
+		font-size: 45px;
+	}
+	.section__text p {
+		font-size: 25px;
+	}
+
+	#about {
+        padding: 6rem 2rem 0 2rem;
+    }
+	
+	.left-box {max-width: 22.5rem; height: max-content;}
+	.right-box {
+		align-items: center;
+	}
+	.bottom-right-box {
+		height: auto;
+		width: auto;
+	}
+	.line-bw- {
+		display: none;
+	}
+	.about-container {
+		flex-wrap: wrap;
+	}
+	.content--- .row {
+		display: flex;
+        flex-wrap: wrap;
+        position: relative;
+		justify-content: center;
+	}
+	.content--- .row h2 {
+		display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+	}
+	.line-bw- {
+		min-width: 0rem;
+    	width: 0rem;
+		margin-bottom: 0;
+		margin: 0 1.5rem 0 1.5rem
+	
+	}
+	.column {
+		display: flex;
+        flex-wrap: nowrap;
+        gap: 0;
+        padding: 1rem 0 0 0;
+        flex-direction: row;
+        align-items: center;
+	}
+	.content--- .row article h1 {
+		width: 5rem;
+	}
+	.content_box---{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.content--- .row .column .row article {
+		padding: 0rem 4rem 0 1rem;
+		display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+	}
+	
+	.row .tool-item h2, .row .my_hibby- h2 {
+		display: none;
+	}
+	
+
+}
+@media screen and (max-width: 1200px) {
+	/* contact-right */
+	.contact-container {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 3rem;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.contact-container {
+		gap: 1rem;
+	}
+	.mobile-view-con-left .social_cont__ a {
+		height: 4rem;
+		width: 4rem;
+	}
+	.mobile-view-con-left .row {
+		justify-content: center;
+	}
+	.contact-left {
+		display: none;
+	}
+	.mobile-view-con-left {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.profile-img-properties {
+		width: 250px;
+		height: 250px;
+		margin: 30 auto 2rem;
+	}
+	.section__text h1 {
+		font-size: 30px;
+	}
+	.section__text p {
+		font-size: 15px;
+	}
+
+	#profile-home {
+		padding: 110px 10% 2rem;
+        gap: 1rem;
+    }
+	#about {
+        padding: 6rem 2rem 0 2rem;
+    }
+	
+
+	.left-box .about-pic {
+		display: none;
+	}
+	.about-container {
+		flex-wrap: wrap;
+	}
+	.content--- .row {
+		display: flex;
+        flex-wrap: wrap;
+        position: relative;
+	}
+	.content--- .row h2 {
+		display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+	}
+	.line-bw- {
+		min-width: 0rem;
+    	width: 0rem;
+		margin-bottom: 0;
+		margin: 0 1.5rem 0 1.5rem
+	
+	}
+	.column {
+        flex-direction: column;
+	}
+	.content--- .row article h1 {
+		width: 5rem;
+	}
+	.content_box---{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.content--- .row .column .row article {
+		padding: 0rem 4rem 0 1rem;
+	}
+
+	.swiper-container {
+		overflow-y: auto;
+	  }
+
+	  .row .tool-item h2, .row .my_hibby- h2  {
+		display: none;
+	}
+
+	.my--hobbies .row {
+		display: flex;
+		flex-wrap: wrap;
+		position: relative;
+		padding: 2rem 1rem 1rem 0.5rem;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	#profile-home {
+		display: block;
+		padding: 130px 0% 9.6rem;
+	}
+	.profile-img-properties {
+		width: 200px;
+		height: 200px;
+		margin: 0 auto 2rem;
+	}
+	.section__text h1 {
+		font-size: 40px;
+	}
+	.section__text p {
+		font-size: 20px;
+	}
+
+	#about {
+		padding: 6rem 2rem 0 2rem;
+	}
+	.about-container {
+		display: block;
+	}
+	.left-box .about-pic {
+		display: none;
+	}
+	.left-box {
+		margin-bottom: 1.5rem;
+		max-width: none;
+	}
+
+	.content--- .row {
+		display: flex;
+        flex-wrap: wrap;
+        position: relative;
+	}
+	.content--- .row h2 {
+		display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+	}
+	.line-bw- {
+		min-width: 0rem;
+    	width: 0rem;
+		margin-bottom: 0;
+		margin: 0 1.5rem 0 1.5rem
+	
+	}
+	.content--- .row article h1 {
+		width: 5rem;
+	}
+	.content_box---{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.content--- .row .column .row article {
+		padding: 0rem 4rem 0 1rem;
+	}
+	.row .tool-item h2, .row .my_hibby- h2  {
+		display: none;
+	}
+	.tools-f-box:hover {
+		width: auto; /* Width on hover */
+		height: auto; /* Height on hover */
+	}
+
+	.contact-inputs {
+		width: 18rem;
+	}
+	.mobile-view-con-left .row {
+        width: 22rem;
+    }
+	
+	.footer-container {
+		padding: 10px;
+	}
+}
+
+@media screen and (max-width: 435px) {
+	.row .tool-item h2, .row .my_hibby- h2  {
+		display: none;
+	}
+	.tools-f-box:hover {
+		width: 300px; /* Width on hover */
+		height: auto; /* Height on hover */
+	}
+	.contact-right {
+		padding: 2.9rem 2rem 2rem 2rem;
+		width: 22rem;
+	}
+	.skill-block {
+		width: 22rem;
+	}
+}

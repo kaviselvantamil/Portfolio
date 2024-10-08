@@ -1,0 +1,109 @@
+/*--------------- Projects-page -------------*/
+
+.Projects-page {
+    padding: 50px 0 0;
+}
+
+.Projects-page .project-container .my--heading {
+    padding-bottom: 3.5rem;
+}
+
+.Projects-page .project-container .projecct-block .sec-row-2 {
+    margin-top: 1rem;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.proj-read-more p {
+    padding: 0;
+}
+
+/*--------------- Projects-dev -------------*/
+
+.project-dev .projecct-block {
+    padding: 0rem;
+}
+
+.project-dev {
+    padding: 0;
+}
+
+/* Project image scroll container */
+.projrct-img-scroll-view {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+/* Make each image responsive */
+.projrct-img-scroll-view img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Separator for better alignment */
+.separator {
+    width: 100%;
+    text-align: center;
+}
+
+.separator a {
+    padding: 0px;
+}
+
+/* Responsive text */
+p {
+    text-align: center;
+    font-size: 24px;
+    padding: 10px 0 0;
+    font-weight: 400;
+}
+
+/* Media Queries for different devices */
+@media (max-width: 1200px) {
+    .projrct-img-scroll-view img {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+    /* .projrct-img-scroll-view {
+        flex-direction: column;
+    } */
+
+    .projrct-img-scroll-view img {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    p {
+        font-size: 0.9em;
+    }
+
+    .projrct-img-scroll-view img {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+}
+
+/*--------------- Embedded Dev --------------*/
+
+.embedded-dev {
+    padding: 50px 0 0;
+}
+
+.embedded-dev .my--heading {
+    padding-bottom: 0rem;
+}
